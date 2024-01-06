@@ -1,0 +1,104 @@
+.photo-1 img {
+  width: 200px;
+  height: auto;
+  border-radius: 20px;
+}
+.photo-1 {
+  text-align: center;
+}
+.aboutme-writing {
+  text-align: center;
+  margin-top: 15px;
+}
+.başlık {
+  color: darkblue;
+  text-align: center;
+  height: 60px;
+  font-size: 50px;
+}
+.name {
+  text-align: center;
+  height: 50px;
+  font-size: 30px;
+}
+.button-1 { 
+  border-radius: 5px;
+  width: 160px;
+  height: 50px;
+}
+.button-2 {
+  border-radius: 5px;
+  width: 160px;
+  height: 50px;
+}
+.sayfa-geçişi-div {
+  text-align: center;
+  color: aqua;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#start-button {
+  width: 160px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: darkblue;
+  color: white;
+}
+#restart-button {
+  width: 160px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-left: 20px;
+  background-color: darkblue;
+  color: white;
+}
+#restart-button:hover {
+  cursor: pointer;
+}
+#start-button:hover {
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: lightblue;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+} 
+#score-display,
+#score {
+  font-size: 50px;
+  text-align: center;
+}
+.ıtu {
+  text-align: center;
+  font-style: italic;
+
+}
